@@ -1,60 +1,148 @@
+/*背景颜色*/
 #body-wrap{
-  background: -webkit-linear-gradient(
-    0deg,
-    rgba(247, 149, 51, 0.1) 0,
-    rgba(243, 112, 85, 0.1) 15%,
-    rgba(239, 78, 123, 0.1) 30%,
-    rgba(161, 102, 171, 0.1) 44%,
-    rgba(80, 115, 184, 0.1) 58%,
-    rgba(16, 152, 173, 0.1) 72%,
-    rgba(7, 179, 155, 0.1) 86%,
-    rgba(109, 186, 130, 0.1) 100%
-  );
-  background: -moz-linear-gradient(
-    0deg,
-    rgba(247, 149, 51, 0.1) 0,
-    rgba(243, 112, 85, 0.1) 15%,
-    rgba(239, 78, 123, 0.1) 30%,
-    rgba(161, 102, 171, 0.1) 44%,
-    rgba(80, 115, 184, 0.1) 58%,
-    rgba(16, 152, 173, 0.1) 72%,
-    rgba(7, 179, 155, 0.1) 86%,
-    rgba(109, 186, 130, 0.1) 100%
-  );
-  background: -o-linear-gradient(
-    0deg,
-    rgba(247, 149, 51, 0.1) 0,
-    rgba(243, 112, 85, 0.1) 15%,
-    rgba(239, 78, 123, 0.1) 30%,
-    rgba(161, 102, 171, 0.1) 44%,
-    rgba(80, 115, 184, 0.1) 58%,
-    rgba(16, 152, 173, 0.1) 72%,
-    rgba(7, 179, 155, 0.1) 86%,
-    rgba(109, 186, 130, 0.1) 100%
-  );
-  background: -ms-linear-gradient(
-    0deg,
-    rgba(247, 149, 51, 0.1) 0,
-    rgba(243, 112, 85, 0.1) 15%,
-    rgba(239, 78, 123, 0.1) 30%,
-    rgba(161, 102, 171, 0.1) 44%,
-    rgba(80, 115, 184, 0.1) 58%,
-    rgba(16, 152, 173, 0.1) 72%,
-    rgba(7, 179, 155, 0.1) 86%,
-    rgba(109, 186, 130, 0.1) 100%
-  );
-  background: linear-gradient(
-    90deg,
-    rgba(247, 149, 51, 0.1) 0,
-    rgba(243, 112, 85, 0.1) 15%,
-    rgba(239, 78, 123, 0.1) 30%,
-    rgba(161, 102, 171, 0.1) 44%,
-    rgba(80, 115, 184, 0.1) 58%,
-    rgba(16, 152, 173, 0.1) 72%,
-    rgba(7, 179, 155, 0.1) 86%,
-    rgba(109, 186, 130, 0.1) 100%
-  );
+	background-image: linear-gradient(to top, #f3e7e9 0%, #e3eeff 99%, #e3eeff 100%);
 }
+
+
+/* 文章页背景 */
 .layout>div:first-child:not(.recent-posts) {
+    /* 以下代表白色透明度为0.3 */
     background: rgba(255,255,255,.5);
 }
+
+/* 所有背景（包括首页卡片、文章页、页面页等） */
+#recent-posts>.recent-post-item,.layout>div:first-child:not(.recent-posts),.layout_post>#page,.layout_post>#post,.read-mode .layout_post>#post{
+    /* 以下代表白色透明度为0.3 */
+    background: rgba(255,255,255,.5);
+}
+
+/*profile首页博主信息*/
+#aside-content > .card-info {
+  background: rgba(255,255,255,.2)
+}
+
+/*鼠标样式*/
+
+body {
+    cursor: url(/img/cursor.ico),auto;
+}
+
+
+.hide-block>.hide-button.open,
+.hide-inline>.hide-button.open {
+    display: block
+}
+
+a,
+button,
+img {
+    cursor: url(/img/cursor_focus.ico), auto;
+}
+
+/*a标签*/
+
+a:hover {
+    cursor: url(/img/cursor_focus.ico), auto;
+}
+
+
+/*按钮*/
+
+button:hover {
+    cursor: url(/img/cursor_focus.ico), auto;
+}
+
+#rightside>div>button,
+#rightside>div>a {
+    display: block;
+    margin-bottom: 2px;
+    width: 30px;
+    height: 30px;
+    color: var(--btn-color);
+    text-align: center;
+    font-size: 16px;
+    cursor: url(/img/cursor_focus.ico), auto;
+}
+
+
+/* 打赏 */
+
+/*
+.post-reward .reward-button {
+    cursor: url(https://cdn.jsdelivr.net/gh/lete114/CDN@1.0/Use/JkuClT.png), auto;
+}
+*/
+
+
+/* 文章标签 */
+
+/*
+.layout_post .tag_share .post-meta__tags {
+    cursor: url(https://cdn.jsdelivr.net/gh/lete114/CDN@1.0/Use/JkuClT.png), auto;
+}
+*/
+
+/* 评论区 */
+
+.vcol * {
+    cursor: url(/img/cursor.ico), auto;
+}
+
+.v[data-class=v] .vicon {
+    cursor: url(/img/cursor_focus.ico), auto;
+}
+
+.v[data-class=v] .vbtn {
+    cursor: url(/img/cursor_focus.ico), auto;
+}
+
+
+/* 回复 */
+
+.vat {
+    cursor:  url(/img/cursor_focus.ico), auto;
+}
+
+
+/*i标签*/
+
+i:hover {
+    cursor:  url(/img/cursor_focus.ico), auto;
+}
+
+
+
+/*页脚a标签*/
+
+#footer-wrap a:hover {
+    text-decoration: none;
+    cursor: url(/img/cursor_focus.ico), auto;
+}
+
+
+/*分页器*/
+
+#pagination .page-number:hover {
+    cursor: url(/img/cursor.ico), auto;
+}
+
+/* 分页器的三个点(...) */
+.space {
+    color: #00c4b6;
+}
+
+
+/*页脚*/
+#footer{
+	background: rgba(255,255,255,0.2);
+/*  background:rgba(161,216,168,.2);*/
+}
+
+#footer #footer-wrap{
+	color: #3a3d49;
+}
+
+#footer-wrap a{
+	color: #d299c2;
+}
+
