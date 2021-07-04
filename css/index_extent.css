@@ -18,7 +18,16 @@
 
 /*profile首页博主信息*/
 #aside-content > .card-info {
-  background: rgba(255,255,255,.2)
+	border-style: solid;
+	border-width: 3px;
+	border-color: rgba(255,255,255,0.7);
+    background: rgba(255,255,255,.2)
+}
+/*profile首页博主名称*/
+.author-info__name {
+    color: #5da3ee;
+	text-shadow: 1px 1px 2px rgba(93,163,238,0.5);
+}
 }
 
 /*鼠标样式*/
@@ -131,11 +140,73 @@ i:hover {
     color: #00c4b6;
 }
 
+/* 滚动条 */
+
+::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #d299c2;
+    background-image: linear-gradient(to top,#e3eeff 0%, #d299c2 100%);
+    border-radius: 2em;
+}
+
+::-webkit-scrollbar-corner {
+    background-color: transparent;
+}
+
+::-moz-selection {
+    color: #fff;
+    background-color: #e58a8a;
+}
+
+/*更改图标*/
+@font-face {
+  font-family: "iconfont"; /* Project id 2650284 */
+  src: url('//at.alicdn.com/t/font_2650284_0en6on920vrv.woff2?t=1625397674591') format('woff2'),
+       url('//at.alicdn.com/t/font_2650284_0en6on920vrv.woff?t=1625397674591') format('woff'),
+       url('//at.alicdn.com/t/font_2650284_0en6on920vrv.ttf?t=1625397674591') format('truetype');
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
+/*最新文章*/
+.fa-history:before {
+  font-family: "iconfont";
+  content: "\e6c7";
+  
+}
+
+/*归档*/
+.fa-archive:before {
+  font-family: "iconfont";
+  content: "\e6b0";
+}
+
+/*网站数据*/
+.fa-chart-line:before {
+	font-family: "iconfont";
+	content: "\e676";
+}
+
+
+
 
 /*页脚*/
 #footer{
-	background: rgba(255,255,255,0.2);
-/*  background:rgba(161,216,168,.2);*/
+	border-top-style: solid;
+	border-top-color: rgba(255,255,255,0.5);
+	background:rgba(255,255,255,.0);
+	background-image: linear-gradient(to top,rgba(255,255,255,0.0) 0%,rgba(255,255,255,0.3) 100%);
 }
 
 #footer #footer-wrap{
