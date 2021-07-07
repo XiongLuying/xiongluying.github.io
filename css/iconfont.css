@@ -1,11 +1,16 @@
-@font-face {
-  font-family: "iconfont"; /* Project id 2650284 */
-  src: url('iconfont.woff2?t=1625409826280') format('woff2'),
-       url('iconfont.woff?t=1625409826280') format('woff'),
-       url('iconfont.ttf?t=1625409826280') format('truetype');
+
+.fa, .far, .fas{
+  font-family: "iconfont";
 }
 
-.fa, .far, .fas {
+@font-face {
+  font-family: "iconfont"; /* Project id 2650284 */
+  src: url('//at.alicdn.com/t/font_2650284_ueswy1wit6.woff2?t=1625661812111') format('woff2'),
+       url('//at.alicdn.com/t/font_2650284_ueswy1wit6.woff?t=1625661812111') format('woff'),
+       url('//at.alicdn.com/t/font_2650284_ueswy1wit6.ttf?t=1625661812111') format('truetype');
+}
+
+.iconfont {
   font-family: "iconfont" !important;
   font-size: 16px;
   font-style: normal;
@@ -13,11 +18,55 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.fa-eye:before {
+  content: "\e6ac";
+}
+
+.fenxiang:before {
+  content: "\e739";
+}
+
+.xihuan:before {
+  content: "\e761";
+}
+
+.fa-chart-line:before {
+  content: "\e66a";
+}
+
+.electronics:before {
+  content: "\e66e";
+}
+
+.calculator:before {
+  content: "\e698";
+}
+
+.mark:before {
+  content: "\e6ca";
+}
+
+.fa-music:before {
+  content: "\e6cf";
+}
+
+.shop:before {
+  content: "\e6d8";
+}
+
+.trash:before {
+  content: "\e6dd";
+}
+
+.upload:before {
+  content: "\e6df";
+}
+
 .collection:before {
   content: "\e6a5";
 }
 
-.more1:before {
+.fa-folder-open:before {
   content: "\e6cb";
 }
 
@@ -29,7 +78,7 @@
   content: "\e6dc";
 }
 
-.smail:before {
+.fa-heart:before {
   content: "\e67f";
 }
 
@@ -41,7 +90,7 @@
   content: "\e68e";
 }
 
-.calendar:before {
+.fa-calendar-alt:before {
   content: "\e699";
 }
 
@@ -61,11 +110,11 @@
   content: "\e6c3";
 }
 
-.live:before {
+.fa-video:before {
   content: "\e6c4";
 }
 
-.search:before {
+.fa-search:before {
   content: "\e6d4";
 }
 
@@ -73,8 +122,30 @@
   content: "\e6d7";
 }
 
-.type:before {
+.fa-stream:before {
   content: "\e6de";
+}
+.fa-list:before {
+  content: "\e6de";
+}
+
+.fa-spin:before,
+.fa-book-open:before,
+.fa-adjust:before,
+.fa-arrow-up:before,
+.fa-list-ul:before,
+.fa-arrows-alt-h:before
+{
+	font-family:"Font Awesome 5 Free";
+}
+
+
+.fa-chevron-down:before {
+  content: "\e685";
+}
+
+.fa-chevron-down:after{
+	conten:"\e686";
 }
 
 .piechart_1:before {
@@ -89,7 +160,7 @@
   content: "\e696";
 }
 
-.content:before {
+.fa-history:before {
   content: "\e6a6";
 }
 
@@ -121,7 +192,7 @@
   content: "\e67a";
 }
 
-.classification:before {
+.fa-bars:before {
   content: "\e69e";
 }
 
@@ -129,11 +200,11 @@
   content: "\e6af";
 }
 
-.fa-folder:before {
+.fa-archive:before {
   content: "\e6b0";
 }
 
-.fa-archive:before {
+.fa-history:before {
   content: "\e6c7";
 }
 
