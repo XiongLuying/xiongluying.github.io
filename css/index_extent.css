@@ -162,45 +162,6 @@ i:hover {
     background-color: #e58a8a;
 }
 
-/*更改图标*/
-@font-face {
-  font-family: "iconfont"; /* Project id 2650284 */
-  src: url('//at.alicdn.com/t/font_2650284_0en6on920vrv.woff2?t=1625397674591') format('woff2'),
-       url('//at.alicdn.com/t/font_2650284_0en6on920vrv.woff?t=1625397674591') format('woff'),
-       url('//at.alicdn.com/t/font_2650284_0en6on920vrv.ttf?t=1625397674591') format('truetype');
-}
-
-.iconfont {
-  font-family: "iconfont" !important;
-  font-size: 16px;
-  font-style: normal;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
-
-/*最新文章*/
-.fa-history:before {
-  font-family: "iconfont";
-  content: "\e6c7";
-  
-}
-
-/*归档*/
-.fa-archive:before {
-  font-family: "iconfont";
-  content: "\e6b0";
-}
-
-/*网站数据*/
-.fa-chart-line:before {
-	font-family: "iconfont";
-	content: "\e676";
-}
-
-
-
-
 /*页脚*/
 #footer{
 	border-top-style: solid;

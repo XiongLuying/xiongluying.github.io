@@ -1,0 +1,139 @@
+@font-face {
+  font-family: "iconfont"; /* Project id 2650284 */
+  src: url('iconfont.woff2?t=1625409826280') format('woff2'),
+       url('iconfont.woff?t=1625409826280') format('woff'),
+       url('iconfont.ttf?t=1625409826280') format('truetype');
+}
+
+.fa, .far, .fas {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.collection:before {
+  content: "\e6a5";
+}
+
+.more1:before {
+  content: "\e6cb";
+}
+
+.fa-tags:before {
+  content: "\e6da";
+}
+
+.text:before {
+  content: "\e6dc";
+}
+
+.smail:before {
+  content: "\e67f";
+}
+
+.more:before {
+  content: "\e68a";
+}
+
+.card:before {
+  content: "\e68e";
+}
+
+.calendar:before {
+  content: "\e699";
+}
+
+.chat:before {
+  content: "\e69d";
+}
+
+.edit:before {
+  content: "\e6aa";
+}
+
+.fa-home:before {
+  content: "\e6bc";
+}
+
+.fa-link:before {
+  content: "\e6c3";
+}
+
+.live:before {
+  content: "\e6c4";
+}
+
+.search:before {
+  content: "\e6d4";
+}
+
+.information_add:before {
+  content: "\e6d7";
+}
+
+.type:before {
+  content: "\e6de";
+}
+
+.piechart_1:before {
+  content: "\e676";
+}
+
+.barchart:before {
+  content: "\e694";
+}
+
+.bulletin:before {
+  content: "\e696";
+}
+
+.content:before {
+  content: "\e6a6";
+}
+
+.gift:before {
+  content: "\e6ba";
+}
+
+.good:before {
+  content: "\e6bb";
+}
+
+.movie:before {
+  content: "\e6cc";
+}
+
+.system-QRcode:before {
+  content: "\e667";
+}
+
+.system-phonebook:before {
+  content: "\e668";
+}
+
+.add:before {
+  content: "\e66c";
+}
+
+.network:before {
+  content: "\e67a";
+}
+
+.classification:before {
+  content: "\e69e";
+}
+
+.fillin:before {
+  content: "\e6af";
+}
+
+.fa-folder:before {
+  content: "\e6b0";
+}
+
+.fa-archive:before {
+  content: "\e6c7";
+}
+
