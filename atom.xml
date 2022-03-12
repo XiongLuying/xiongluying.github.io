@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>黄油小熊</title>
+  <title>咸鱼泡咖啡</title>
   
   <subtitle>理想与浪漫永不消亡</subtitle>
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2021-06-29T13:14:17.452Z</updated>
+  <updated>2021-07-12T06:36:14.922Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -15,6 +15,28 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>我的hexo-butterfly优化记录</title>
+    <link href="http://example.com/2021/07/12/%E6%88%91%E7%9A%84%E4%B8%96%E7%95%8C/"/>
+    <id>http://example.com/2021/07/12/%E6%88%91%E7%9A%84%E4%B8%96%E7%95%8C/</id>
+    <published>2021-07-12T06:24:05.000Z</published>
+    <updated>2021-07-12T06:36:14.922Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="标题1"><a href="#标题1" class="headerlink" title="标题1"></a>标题1</h1><h2 id="标题2"><a href="#标题2" class="headerlink" title="标题2"></a>标题2</h2><h3 id="标题3"><a href="#标题3" class="headerlink" title="标题3"></a>标题3</h3><h4 id="标题4"><a href="#标题4" class="headerlink" title="标题4"></a>标题4</h4>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;标题1&quot;&gt;&lt;a href=&quot;#标题1&quot; class=&quot;headerlink&quot; title=&quot;标题1&quot;&gt;&lt;/a&gt;标题1&lt;/h1&gt;&lt;h2 id=&quot;标题2&quot;&gt;&lt;a href=&quot;#标题2&quot; class=&quot;headerlink&quot; title=&quot;标题2&quot;&gt;&lt;/a&gt;标题2&lt;/h</summary>
+      
+    
+    
+    
+    
+    <category term="hexo" scheme="http://example.com/tags/hexo/"/>
+    
+  </entry>
   
   <entry>
     <title>Hello World</title>
